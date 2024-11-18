@@ -1,4 +1,4 @@
-'use client'
+'use client';
 import './globals.css'
 import { TypeAnimation } from 'react-type-animation';
 export default function Home() {
