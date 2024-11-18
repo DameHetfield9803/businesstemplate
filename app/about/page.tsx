@@ -6,8 +6,8 @@ import { TypeAnimation } from 'react-type-animation';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle, CardFooter } from "@/components/ui/card"
 export default function About() {
     return (
-        <div>
-            <h1 className='pb-2 text-3xl'>About us</h1>
+        <div className='space-y-4 p-2'>
+            <h1 className='text-3xl mb-2'>About us</h1>
             <TypeAnimation className='text-pink-500 text-lg dark:text-blue-50' sequence={["We are xxx, [problem...]?, [solution]. Why use us? because xyz."]} wrapper='span' />
             <Card className='dark:bg-slate-200 dark:text-black mt-2 bg-black text-blue-50 w-fit px-1.5 mx-auto text-left'>
                 <CardHeader>
