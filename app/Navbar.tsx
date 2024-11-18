@@ -2,7 +2,7 @@
 
 import './globals.css';
 import Link from 'next/link';
-import SearchComponent from './Search';
+import Search from './Search';
 import ThemeSwitch from './ThemeSwitch';
 import { DropdownMenu, DropdownMenuTrigger, DropdownMenuContent, DropdownMenuItem } from '@/components/ui/dropdown-menu';
 import { Button } from '@/components/ui/button';
@@ -15,7 +15,7 @@ export default function Navbar() {
                 <Link href="/" className="text-gray-900 dark:text-gray-100">
                     Logo
                 </Link>
-                <SearchComponent />
+                <Search placeholder="Search..." />
                 <DropdownMenu>
                     <DropdownMenuTrigger asChild>
                         <Button className="px-4 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-700 dark:bg-gray-200 dark:text-black dark:hover:bg-gray-300">
